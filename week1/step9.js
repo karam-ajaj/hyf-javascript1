@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let x = 7;
 console.log('The value of x is: ' + x);

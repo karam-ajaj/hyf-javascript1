@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let countries = [];
 console.log('the value of my array will be: object');

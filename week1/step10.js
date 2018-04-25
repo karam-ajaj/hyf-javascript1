@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let myArray = ['1' , '2'];
 console.log('The value of myArray is: ' + myArray);
@@ -10,7 +10,7 @@ let x = 6/0;
 let y = 10/0;
 console.log('The value of the variable x is: ' + x);
 console.log('The value of the variable y is: ' + y);
-if(x == y){
+if(x === y){
     console.log('We can compare infinities');
 }
 else{

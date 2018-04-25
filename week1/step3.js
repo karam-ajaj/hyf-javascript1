@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let x;
 console.log('the value of my variable x will be: undefined');

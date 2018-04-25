@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 console.log('Halo, dunia! // Indonesian');
 console.log('Ciao, mondo! // Italian');

@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let myString = "this is a test";
 console.log(myString);

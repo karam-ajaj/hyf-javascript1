@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 // 8.1 declaration
 let integerVariable = 3;
@@ -37,7 +37,7 @@ console.log('The actual type of my nullVariable is: ' + typeof nullVariable);
 
 // 8.5 & 8.6
 console.log('compare FALSE');
-if (typeof integerVariable == typeof stringVariable) {
+if (typeof integerVariable === typeof stringVariable) {
     console.log('SAME TYPE');
 }
 else {
@@ -45,7 +45,7 @@ else {
 }
 
 console.log('compare TRUE');
-if (typeof arrayVariable == typeof nullVariable) {
+if (typeof arrayVariable === typeof nullVariable) {
     console.log('SAME TYPE');
 }
 else {
