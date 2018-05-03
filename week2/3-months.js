@@ -22,9 +22,9 @@ for (let i = 0; i < months.length; i++) {
   totalDaysNumber = totalDaysNumber + months[i].days;
 }
 console.log('------------------------');
-if(totalDaysNumber === 365){
-    console.log('Yep, it adds up to 365.');
+if (totalDaysNumber === 365) {
+  console.log('Yep, it adds up to 365.');
 }
 else {
-    console.log('Oh no! It doesn\'t add up to 365!');
+  console.log('Oh no! It doesn\'t add up to 365!');
 }
