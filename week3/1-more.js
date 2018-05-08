@@ -1,12 +1,12 @@
 'use strict';
 
 // fill in the dots
-function sum(x, y, z) {
+function productOfThreeVariables(x, y, z) {
   return x * y * z;
 }
 
-const result = sum(2, 3, 4);
+const result = productOfThreeVariables(2, 3, 4);
 console.log(result);
 
-// or, in a single line:
-console.log(sum(2, 3, 4));
+// or in a single line:
+console.log(productOfThreeVariables(2, 3, 4));

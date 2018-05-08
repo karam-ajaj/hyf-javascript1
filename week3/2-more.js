@@ -1,7 +1,7 @@
 'use strict';
 
 function colorCar(color) {
-  let carDescription = 'a ' + color + ' car';
+  const carDescription = 'a ' + color + ' car';
   return carDescription;
 }
 

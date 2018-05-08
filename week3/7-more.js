@@ -4,20 +4,15 @@ const vehicle = ['car', 'motorbike', 'caravan', 'bike'];
 
 function vehicleType(color, code, age) {
   let result = 0;
-  if (1 <= code && code <= vehicle.length) {
+  const condition = age <= 1 ? 'new' : 'used';
+  if (code >= 1 && code <= vehicle.length) {
     for (let i = 0; i < vehicle.length; i++) {
-      if (age <= 1) {
-        result = 'a ' + color + ' new ' + vehicle[code - 1]; // the index is modified to match the required output
-      }
-      else {
-        result = 'a ' + color + ' used ' + vehicle[code - 1];
-      }
+      result = 'a ' + color + ' ' + condition + ' ' + vehicle[code - 1]; // the index is modified to match the required output
     }
   }
   else {
     result = 'unknown vehicle.';
   }
-
 
   return result;
 }

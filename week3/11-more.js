@@ -11,3 +11,6 @@ console.log(x === y); // I think this case should be true if they have the same 
 console.log(z === y); // true because z and y are indicating to the same bites in the memory
 
 console.log(z === x);
+
+
+// Using a metaphor: x and y are like twin brothers, they look the same but are separate entities. However, z is just another name for x.

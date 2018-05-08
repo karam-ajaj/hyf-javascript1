@@ -1,8 +1,8 @@
 'use strict';
 
-let obj = {};
+const obj = {};
 
-let teachers = [
+const teachers = [
   {
     firstName: 'Philipp',
     lastName: 'Beau',
